@@ -1,0 +1,6 @@
+cmake-build-debug
+*.gif
+*.png
+.idea
+*.csv
+*.py
