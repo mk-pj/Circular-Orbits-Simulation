@@ -1,7 +1,7 @@
 #include <cmath>
 #include <fstream>
-#include "func.h"
 #include <iostream>
+#include "func.h"
 
 inline Vector2D compute_acceleration(const Body &target, const Body &source) {
     const Vector2D diff = source.position - target.position;
